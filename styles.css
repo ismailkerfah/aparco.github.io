@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+#container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#getLocationBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#getLocationBtn:hover {
+    background-color: blue;
+}
+
+#locationsListContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#locationsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#locationsList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    
+}
+
+#locationsList li:last-child {
+    border-bottom: none;
+}
+
+#locationsList li:hover {
+    background-color: orange;
+}
+
